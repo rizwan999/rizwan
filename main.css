@@ -1,0 +1,196 @@
+body{
+	margin: 0px;
+}
+.home{
+	background-color: #232323;
+	height: 35em;
+	padding-top: 20%;
+	padding-bottom: 1em;
+
+}
+
+.square{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	/*margin-top: 15%;*/
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	border-radius: 20px;
+
+}
+
+.wrapper {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 2000% 2000%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+} 
+
+.about{
+	text-transform: uppercase;
+	font-size: 2.7em;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 10%;
+	padding-top: 3%
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+    margin-top: 0;
+}
+.aboutme{
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+}
+.abt{
+	margin:5%;
+}
+p {
+    display: block;
+    -webkit-margin-start: 10%;
+    -webkit-margin-end: 10%;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.7em;
+}
+
+img{
+	max-height: 400px;
+	max-width: 400px;
+	display: inline-block;
+	float: right; 
+	/*margin: 4px 10px 0px 0px;*/
+	border-radius: 50%;
+	 border: 1px solid #000000;
+	 align-items: center;
+}
+
+.abt{
+	
+	padding-bottom: 8em;
+}
+h1{
+	text-transform: uppercase;
+	font-family: 'Markazi Text',serif;
+}
+.skills{
+	background: #bdc3c7;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+h2{
+	font-family: 'Quicksand',sans-serif;
+	padding: 2% 5%;
+	margin-bottom: 2px;
+}
+.progress1{
+	
+	background: #badc58;
+	margin: 0 10%;
+	border-radius: 25px;
+}
+.bar1{
+	
+	background: #6ab04c;
+	width: 70%;
+	border-radius: 25px;
+	/*float: left;*/
+
+}
+
+.span1{
+	/*padding-left: 55%;*/
+}
+.progress2{
+	
+	background: #ffbe76;
+	margin: 0 10%;
+	border-radius: 25px;
+}
+.bar2{
+	
+	background: #f0932b;
+	width: 50%;
+	border-radius: 25px;
+}
+.span2{
+	/*padding-left: 55%;
+	padding-top: 2px;
+	padding-bottom: 2px;*/
+}
+
+.progress3{
+	
+	background: #7ed6df;
+	margin: 0 10%;
+	margin-bottom: 5%;
+	border-radius: 25px;
+}
+.bar3{
+	
+	background: #22a6b3;
+	width: 35%;
+	border-radius: 25px;
+}
+.span3{
+	/*padding-left: 9%;
+	padding-top: 2px;
+	padding-bottom: 2px;*/
+}
